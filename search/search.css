@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-logo {
+    display: flex;
+    margin-left: 20px;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.header-logo p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.header-profil {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.header-profil img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-profil  a {
+    text-decoration: none;
+}
+/* content */
+
+.content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.form-inline {
+    background-color: rgb(179, 214, 247);
+    padding-top: 8px;
+    padding-left: 30px;
+
+}
+
+.content-mine {
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.content-mine a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-mine img{
+    width: 200px;
+}
+
+.content-mine h5 {
+    color: blue;
+}
+.card-body {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.card-end {
+    display: flex;
+}
+.card-end div {
+    margin-right: 20px;
+}
+.card-end i {
+    font-size: 15px;
+    padding-right: 8px;
+}
+
+.card-price p {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* footer */
+
+
+footer .row {
+    margin: 0;
+}
+footer img {
+    margin: 10% 40%;
+}
+
+option i {
+    font-size: 20px;
+}
+.form-control  {
+    width: 30%;
+}
+
